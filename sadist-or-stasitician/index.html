@@ -1,0 +1,372 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Lies, damn lies and statistics</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=8212bc766d">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="No Blog">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Lies, damn lies and statistics">
+    <meta property="og:description" content="Why do we need statistics? I don't mean 'statistics' in the sense of data - like when we ask what the attributes of something are, but rather 'statistics' or 'stats' as the name for the set of procedures we have...">
+    <meta property="og:url" content="http://localhost:2368/sadist-or-stasitician/">
+    <meta property="article:published_time" content="2015-04-25T16:44:31.490Z">
+    <meta property="article:modified_time" content="2015-04-25T16:44:31.481Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lies, damn lies and statistics">
+    <meta name="twitter:description" content="Why do we need statistics? I don't mean 'statistics' in the sense of data - like when we ask what the attributes of something are, but rather 'statistics' or 'stats' as the name for the set of procedures we have...">
+    <meta name="twitter:url" content="http://localhost:2368/sadist-or-stasitician/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "No Blog",
+    "author": {
+        "@type": "Person",
+        "name": "Dan MacLean",
+        "image": "//www.gravatar.com/avatar/acdde5b03dda3a7b05406a3b0fc8a02d?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/dan",
+        "sameAs": "http://danmaclean.info",
+        "description": "\"Over thirty... tall-ish, dark haired and never quite at ease with himself.\"\n\nhttp://hitchhikers.wikia.com/wiki/Arthur_Dent\n\n"
+    },
+    "headline": "Lies, damn lies and statistics",
+    "url": "http://localhost:2368/sadist-or-stasitician/",
+    "datePublished": "2015-04-25T16:44:31.490Z",
+    "dateModified": "2015-04-25T16:44:31.481Z",
+    "description": "Why do we need statistics? I don&#x27;t mean &#x27;statistics&#x27; in the sense of data - like when we ask what the attributes of something are, but rather &#x27;statistics&#x27; or &#x27;stats&#x27; as the name for the set of procedures we have..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="No Blog" href="../rss/index.html">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48633055-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://danmaclean.github.io/">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="http://danmaclean.github.io/about/">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.html">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Lies, damn lies and statistics</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-04-25">25 April 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Why do we need statistics? I don't mean 'statistics' in the sense of data - like when we ask what the attributes of something are<sup id="fnref:1"><a href="index.html#fn:1" rel="footnote">1</a></sup>, but rather 'statistics' or 'stats' as the name for the set of procedures we have for asking questions <em>about</em> data. Statistics help us to deal with variability in data, to find differences (and similarities) reliably and to determine the accuracy of our experimental procedures<sup id="fnref:2"><a href="index.html#fn:2" rel="footnote">2</a></sup>. These are really important aspects of biological experiment designs and statistics really help, but there is something about statistics that seems to turn biologists right off.</p>
+
+<p><img src="http://i.giphy.com/oDyvXDzQXGvGU.gif" alt="Kitty!">
+<em>source: <a href="http://giphy.com">giphy</a></em></p>
+
+<p>As a consequence few ever get to truly love statistics for the adaptable and helpful set of tools that they are and end up using them not quite correctly. Plenty of kludges that interfere with strong conclusions happen. But it is possible to get on with stats. Loving your data with stats need not be more unpleasant than loving a mildly incontinent, flatulent, asthmatic puppy with one eye sealed shut from birth and a tendency to run into your furniture and wet itself. So in the spirit of encouraging universal data harmony here's an opinionated set of rules o' thumb to help you get on with your data. </p>
+
+<h3 id="variabilityinmeasurements">Variability in measurements</h3>
+
+<p>People panic about variability for no good reason. Variability in measurements is a fact of life, just like the rain or like Manchester and you've got to live with its existence, no matter how wet you think you might get. I've seen scientists panic that variability in their data is their fault<sup id="fnref:3"><a href="index.html#fn:3" rel="footnote">3</a></sup> and that it's somehow going to get them into trouble. To avoid thinking of this they feel a need to squeeze everything into a summary statistic (a derivative number like the mean, median or mode) and an associated measure of variability (like variance or standard deviation/error) and move swiftly on.</p>
+
+<p>The major problem is that you usually squeeze the life out of the data when you reduce it to one of these numbers. </p>
+
+<p>Summary statistics can represent different things in the same way - two very different sets of numbers can have identical means and error bars. This fun<sup id="fnref:4"><a href="index.html#fn:4" rel="footnote">4</a></sup> perspective from Weissgerber <em>et al</em><sup id="fnref:5"><a href="index.html#fn:5" rel="footnote">5</a></sup> really nails why. </p>
+
+<p><img src="http://journals.plos.org/plosbiology/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pbio.1002128.g001" alt="Weissgerber et al., Figure 1" title=""> </p>
+
+<p><em>source: <a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">Weissberger et al PLoS Biology, Figure 1</a></em></p>
+
+<p>The mean and error bars only summarise our data well when the variation is 'normally' distributed<sup id="fnref:6"><a href="index.html#fn:6" rel="footnote">6</a></sup> (that is with the sort of pattern of spread that a genuine random number generator would give us). Of course, that assumption, that data are 'normally' variable is something that needs testing.  </p>
+
+<p>The take home here is that you shouldn't try to find a single number to represent many, without <em>really</em> knowing that your numbers are distributed in the normal way and that simply looking at the data in its raw, variable state is usually a lot better and more informative than means, error bars and boxplots. </p>
+
+<h4 id="someexamplesforgeneratingjitterplots">Some examples for generating jitter plots</h4>
+
+<p>Let's see how we can create some plots for data that have a value on just one axis (or dimension) and a category or class on the other, I'll call these jitter plots because I don't know if they have a real name.</p>
+
+<h5 id="inr">In R</h5>
+
+<p>Given a data file <code>data.csv</code> that looks like this</p>
+
+<pre><code>| measurement | class  |
+|     1.92    |   A    |
+|     0.84    |   A    |
+|     0.63    |   A    |
+|     0.93    |   B    |
+|     0.59    |   B    |
+|     0.43    |   B    |
+...
+</code></pre>
+
+<p>You can generate this </p>
+
+<p><img src="../content/images/2015/04/Rplot.png" alt="rplot"></p>
+
+<pre><code class="language-r">library(ggplot2)  
+data &lt;- read.csv('data.csv', header=TRUE)  
+ggplot(data, aes(class, measurement)) + geom_jitter()
+</code></pre>
+
+<h5 id="inpython">In Python</h5>
+
+<p>Given a data file <code>data.csv</code> that looks like this</p>
+
+<pre><code>| measurement | class  |
+|     1.92    |   1    |
+|     0.84    |   1    |
+|     0.63    |   1    |
+|     0.93    |   2    |
+|     0.59    |   2    |
+|     0.43    |   2    |
+...
+</code></pre>
+
+<pre><code class="language-python">import pandas as pd  
+import seaborn as sns  
+data = pd.read_csv('data.csv')  
+sns.lmplot("class", "measurement", data,fit_reg=False);
+</code></pre>
+
+<p>You can generate this <br>
+<img src="../content/images/2015/04/P6xWgkWMKSVJDTEZJUkCUsSQVZwpJUkCUsSQVZwpJUkCUsSQVZwpJU0P8HE6yOLHJrNGgAAAAASUVORK5CYII-.png" alt="pythonplot"></p>
+
+<h5 id="inexcel">In Excel</h5>
+
+<p>Aha ha, hahaha, ha. Ha. No. Don't bother. Ultimately, developing visualisations (particularly complicated ones) in Excel erodes your precious time. It can do good stuff but all that pointing and clicking is not reproducible or automatic so the amount of time to re-do the thing when you need to make a single change can be as big as the initial time you put into creating it. Further, you'll have a hard time explaining how you generated a complex data visualisation at publication time <sup id="fnref:7"><a href="index.html#fn:7" rel="footnote">7</a></sup>. I really haven't got the time, space or energy to go through the all the clicks and selections you need to make such a plot in Excel. Also Excel's code is closed and that means it's a black box that you don't know what it does, really.</p>
+
+<p>That said - this was done in Excel</p>
+
+<p><img src="http://img.scoop.it/HygAIGK1IzlhS-TWftxqezl72eJkfbmt4t8yenImKBVvK0kTmF0xjctABnaLJIm9" alt="Oh..">
+<em>source: <a href="http://www.scoop.it/t/plant-pathogenomics">KamounLab</a></em></p>
+
+<p>actually though, it wasn't done in Excel in the way that we think of straight away, it was done with a script written in Microsoft's built-in Visual Basic language using the Excel sheet as a database. Which simultaneously proves my point about reproduction and negates (some of) my point about Excel. So, will I show you how to do it in Visual Basic? No. It's a horrible and restricted language<sup id="fnref:8"><a href="index.html#fn:8" rel="footnote">8</a></sup> such that if you're only going to try one language, you'd be better off trying something with wider utility. </p>
+
+<h4 id="colourscales">Colour scales</h4>
+
+<p>Colour choice is often overlooked. In plots like the one above (a heatmap, basically) then colour choice can make or break the interpretation as much as fitting a bar and error points can. You're probably familiar with the problems colour blind people have, but this goes further.</p>
+
+<p>When we create a colour scheme for a heatmap we tend to simply map each data to an rgb value of a colour. RGB gives us a colour description made of three numbers that represent the intensity of red, green and blue light that compose the colour. The issue here is in how the eye sees colours (remember the blue/black dress that looked white/gold?). The eye overweights brightness (or luminance) information in colours and makes some standout more than others independent of where they are in the colour scale. Look at this colour map and its corresponding luminance information. The high luminance in the cyan and yellow bit brings your eye to these colours preferentially.</p>
+
+<p><img src="../content/images/2015/04/download.png" alt="Jet!"></p>
+
+<p><em>source <a href="https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/">jakevdp.github.io</a></em></p>
+
+<p>The result is you see the cyan and magenta as the highest values and can start to see patterns that aren't really in the data or you miss patterns that are there, <a href="https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/">see this blog</a> by jakevdp. </p>
+
+<p>This is a tricky problem to solve and tools like <a href="http://colorbrewer2.org/">ColorBrewer</a> and <a href="https://color.adobe.com">Kuler</a> can help you define linear palettes that represent the underlying numbers evenly. Using the right colour scheme will help you see your data much better, and knowing your data well will help you pick the most informative colour scheme.</p>
+
+<h4 id="samplesizeandvariability">Sample size and variability</h4>
+
+<p>Sample size is a really important thing, there is a habit in biology to do three replicates and leave it at that. Look closely at the figures from Weissberger. Given any three of the spots in each panel, could you discern the differences between the panels? It's hard, right? And that's the point. The more variability you have or the more finely you want to divine a difference, then the greater the sample size you need. Three replicates may be enough to do a <em>t</em>-test but will it be enough to discern the difference and make the right conclusion? Maybe, maybe. </p>
+
+<p><img src="../content/images/2015/04/B8CfmmiCMAAm-WW.jpg" alt="Woop"></p>
+
+<p>But don't feel bad. Get to know your data with a good, sensible plot and you'll have a much clearer picture. As your study develops you can use <a href="http://en.wikipedia.org/wiki/Effect_size">effect size</a> calculations and power analysis to work out how many replicates will give you a good chance to detect a given difference from a variable sample.</p>
+
+<h3 id="testingfordifferencesorsimilarities">Testing for differences (or similarities)</h3>
+
+<p>Determining whether a difference exists between sets of measurements is usually what scientists want to do with statistics. A thing here is that they tend to believe that getting a low <em>p</em> value on a test is proof of real difference. My favourite thing about statistical significance is that it wasn't intended to be taken as a proof of difference between sets, merely as a pointer that two samples might be different.</p>
+
+<p>Here's what <a href="http://en.wikipedia.org/wiki/Ronald_Fisher">R.A Fisher</a> said about <em>p</em> values</p>
+
+<blockquote>
+  <p>If P is between .1 and .9 there is certainly no reason to suspect the hypothesis tested. If it is below .02 it is strongly indicated that the hypothesis fails to account for the whole of the facts. We shall not often be astray if we draw a conventional line at .05</p>
+</blockquote>
+
+<p>He's saying that <em>p</em> at &lt; 0.95 is a fair start, but it isn't the whole story (hell, he'd know about <em>p</em> - he invented it). In addition to this <em>very</em> qualified statement he did say that this wasn't the whole story and pointed out it shouldn't override a scientists intuition over the situation.</p>
+
+<blockquote>
+  <p>in fact no scientific worker has a fixed level of significance at which from year to year, and in all circumstances, he <sup id="fnref:9"><a href="index.html#fn:9" rel="footnote">9</a></sup> rejects hypotheses; he rather gives his mind to each particular case in the light of his evidence
+  and his ideas <sup id="fnref:10"><a href="index.html#fn:10" rel="footnote">10</a></sup></p>
+</blockquote>
+
+<p><em>p</em> values from tests are a useful tool, but don't use them blindly. And don't believe them blindly - if data look screwy, good <em>p</em> or not, they're screwy. There are basically two classes of test: Model-based and Bayesian.</p>
+
+<h4 id="modelbaseddifferencetesting">Model-based difference testing</h4>
+
+<p>These tests basically work by referring to a model distribution of values from which you think your experimental values have come, a <em>t</em>-test assumes your data are a small sample from a bigger set of values that are normally distributed. In the simplest use case, the experimenter then sets up two outcomes in their lab-book (hypotheses): one is that there's no difference between the background distribution and the sample (the null hypothesis), the second that there is a difference (the alternative hypothesis) and runs the test.</p>
+
+<p>The test then uses the properties of the background distribution to say how likely it is that the measurements come from that distribution. As an example, here's a histogram of a set of numbers chosen at random from a normal distribution with mean of 0, which will stand for our background distribution.</p>
+
+<p><img src="../content/images/2015/04/plot.png" alt="normal distribution"></p>
+
+<p>The test looks at the far tails of the spread and asks what the cutoff is that holds in the middle 95 %<sup id="fnref:11"><a href="index.html#fn:11" rel="footnote">11</a></sup> of the distribution - so just near -4 and 4 here. The logic is now that real values from the distribution only occur at this value 5 % of the time, so if you see these in your sample there is only a 5 % chance the sample numbers came from the background distribution. Only 5 % ?! That's unlikely, so you can say they probably don't come from that distribution and must be different. Note that you haven't proven that your samples are different from your background, you've just shown that they aren't so likely to come from their. You can reject the first, null hypothesis we set up, and (with only one other hypothesis left) accept the alternative. </p>
+
+<p>Who feels that they haven't really proven anything and that this is a bit of a trick? I don't blame you. All you are really getting here is further evidence of a difference beyond that you can see in plots etc.</p>
+
+<p>The pattern carries over to all sorts of difference tests, the underlying distribution may differ (it may be binomial, or hypergeometric etc) and you may need to complicate things by doing more than just two comparisons or have non-numeric data but the core process remains and the take home is still that you need to know your data.</p>
+
+<p>It's too hard to give practical advice on which test to use and how to use it here. Instead I advise getting hold of Statistical and Data Handling Skills in Biology, an excellent little book by Roland Ennos <a href="http://www.amazon.co.uk/Statistical-Data-Handling-Skills-Biology/dp/0131955845">available on Amazon</a> that has advantages over other stats manuals in that it's slightly cheaper, has the words 'Don't Panic' in large friendly letters on the cover<sup id="fnref:12"><a href="index.html#fn:12" rel="footnote">12</a></sup> and it has a wonderful flow chart in the back that helps you work out which test you need. Get this book and use that flow chart.</p>
+
+<p>The strength of the model-based tests is that you don't need to gather prior information to do tests, you can in fact just make some (hopefully reasonable and borne out by the data) assumptions and work from that point forward. The weakness comes when you don't have that background, or there's some sort of bias. </p>
+
+<h4 id="likelihoodofaneventwithbayesiantests">Likelihood of an event with Bayesian tests</h4>
+
+<p>These follow a different approach completely as they're an older approach than the model-based ones. To set the scene let's steal from <a href="http://www.countbayesie.com/blog/2015/2/18/hans-solo-and-bayesian-priors">Count Baysies</a> much better explanation of Bayesian likelihoods and suppose we're in a space fighter on the edge of an asteroid belt being shot at by many enemy spacecraft. We have to choose whether to go into that asteroid belt and potentially get smashed to bits, or stay out and fight. A model-based approach asks "what is the distribution of life-expectancies of pilots that fly into an asteroid belt", naturally most don't last very long but there are a small (very small) proportion that last ages and some that get through, the proportion that last long enough to get out the other side gives us the probability of any old pilot getting through. So by looking at the distribution, we are forced to conclude that the likelihood is small and we shouldn't do it if we are the average pilot.</p>
+
+<p>So that works for average pilots called <a href="http://starwars.wikia.com/wiki/Red_Squadron_%28Rebel_Alliance%29">Biggs or Porkins</a>, but what if your pilot is called Han Solo? Everybody knows he's an amazing pilot and surely the odds are different for him?! </p>
+
+<p><img src="http://i.giphy.com/yznEXxtq7wQlG.gif" alt="Unless they're Bayesian odds, in which case I come out brilliantly">
+<em>source: <a href="http://giphy.com">giphy</a></em></p>
+
+<p>Of course they are! This sort of pre-knowledge is called prior information and Bayesian tests can take this into account effectively changing the question to ask 'given that I know my pilot is Han Solo, whose life expectancy in an asteroid belt is huge, what are my odds of getting through the asteroid belt'. Prior information helps. And good prior information comes from knowing your data. Get to know your data.  </p>
+
+<p>Model-based approaches gain in that they remove the need for the actually quite clunky and subjective prior which can be hard to obtain, but they lose the extra accuracy that prior knowledge can bring. Fisher invented model-based approaches to do testing where Bayesian approaches let him down and the modern biologist's toolbox should contain both, each used appropriately in the light of a good understanding of the data. Get to know your data.</p>
+
+<h5 id="bayesandconfirmationbias">Bayes and confirmation bias</h5>
+
+<p>A significant problem with Bayesian logic is that it takes us close to confirmation bias if we are careless<sup id="fnref:13"><a href="index.html#fn:13" rel="footnote">13</a></sup>. In particular, trying to claim that we can reason verbally in a Bayesian priors can drag us down. Here's an amusing quote</p>
+
+<blockquote>
+  <p>A Bayesian is one who, vaguely expecting a horse, and catching a glimpse of a donkey, strongly believes he<sup id="fnref:14"><a href="index.html#fn:14" rel="footnote">14</a></sup> has seen a mule.</p>
+</blockquote>
+
+<p>The prior expectation of horse leads the hapless Bayesian to weight their data of donkey to conclude, wrongly, that they saw a mule. Prior information is bad if it can't be rejected. And many times it is hard to reject a favourite prior, this behaviour is a natural psychological bias called <a href="http://en.wikipedia.org/wiki/Conservatism_(belief_revision">conservatism</a>, that stops us insufficiently revising our hypotheses. To be safe Bayesian methods need good numbers, in fact they need numbers full stop.  It's often not safe to use 'Bayesian thinking' as a general, everyday logical tool, because its dark side is quick, easy and seductive. </p>
+
+<h4 id="posttesting">Post testing</h4>
+
+<p>Whether you get the <em>p</em>-value through a Bayesian or Model-based test, you still get downstream problems with <em>p</em> because they aren't 100% accurate (by definition - they're just likelihoods). Consider doing a test to get a <em>p</em> for the differential expression of a gene. The <em>p</em> its differentially expressed is 0.95. Now if you do three genes the <em>p</em> all three are differentially expressed isn't 0.95. It's the probability of the first AND the second AND the third so it's <code>0.95 x 0.95 x 0.95 = 0.86</code>. The chance of the whole set of three being differentially expressed is only 0.86, so there's a much stronger chance that there is something wrong in your set. And  it isn't clear which ones. This is called the problem of multiplicity and needs to be dealt with. Corrections like the Bonferroni and Benjamini-Hochberg help out to make these sets better and more robust. It bears repeating that this problem occurs whatever test you chose up front.</p>
+
+<h3 id="classificationaccuracy">Classification accuracy</h3>
+
+<p>Often, we will want to classify stuff, that is to say, decide which group it belongs to or stick a label on it. So we might need to separate plants into diseased or resistant, or nucleotides as polymorphic relative to a reference. <br>
+At some point you use a classification test (presence of lesions on a leaf, or number of consensus bases that don't agree with the reference) and it's important to determine how accurate that classification is. There are two ways to get a classification wrong</p>
+
+<p><img src="https://datavizblog.files.wordpress.com/2014/05/type-i-and-type-ii-errors-simplified.jpg" alt="It went blue..">
+<em>source: <a href="http://datavizblog.com">datavizblog</a></em></p>
+
+<p>and two ways to get it right, a true positive and a true negative. With these numbers together you can work out statistics called sensitivity and specificity, which describe the proportion of real ones that you collect and the proportion of wrong ones that you exclude. The sums to calculate these are straightforward, <a href="http://en.wikipedia.org/wiki/Sensitivity_and_specificity">Wikipedia</a> has a good page.</p>
+
+<p>Ideally of course you want 100 % sensitivity and 100 % specificity, but this isn't often possible because genetic screens leak or sequencers make errors and you get misclassifications. So the trick becomes to assess and tune the level of sensitivity and specificity to a useable and manageable level. When you've done this you get a clearer picture of the accuracy of your classifications and the reliability of any large datasets (like SNP calls) you may be generating with your classification and this is a useful step in getting to know your data.</p>
+
+<h3 id="gooddog">Good dog?</h3>
+
+<p>All these are, in my experience, the basis of the knowledge you need to housetrain and make stats your faithful pet. They're not the whole thing by any means, but there is a common thread - get to know your data and get to love its variability. If you know the characteristics of your data you're going to  have a much more comfortable time drawing conclusions and assigning the right confidence to tests and this can only lead to better more productive work.  </p>
+
+<hr>
+
+<div class="footnotes"><ol><li class="footnote" id="fn:1"><p>Such as the track record of a sportsperson <a href="index.html#fnref:1" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:2"><p>There are lots of other reasons, including but not limited to a desire to inflict pain and confusion on students and getting work accepted in journals by generating a magic number called '<em>p</em> ' that removes the need for critical thought about how our data were handled  <a href="index.html#fnref:2" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:3"><p><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">Weissberger <em>et al</em> PLoS Biology, 13(4): e1002128</a>  <a href="index.html#fnref:3" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:4"><p>It <em>probably</em> isn't <a href="index.html#fnref:4" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:5"><p>No, it is fun <a href="index.html#fnref:5" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:6"><p>It's called the Normal distribution because its the one we normally expect. If you're American you may consider calling it the Regular distribution instead. <a href="index.html#fnref:6" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:7"><p>Saying 'figures were generated in MS Excel' in a manuscript <em>really</em> doesn't cut it as an explanation of how complex data plots are created. <a href="index.html#fnref:7" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:8"><p>And Sylvain Raffaele who generated these is a man with severe skills. <a href="index.html#fnref:8" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:9"><p>Presumably Fisher didn't believe that women took the same approach - or he's using old fashioned sexist language <a href="index.html#fnref:9" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:10"><p>Almost Bayesian, huh? <a href="index.html#fnref:10" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:11"><p>Or whatever your chosen <em>p</em> is  <a href="index.html#fnref:11" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:12"><p>It doesn't have 'Don't Panic' written on the cover. That's a different book <a href="index.html#fnref:12" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:13"><p>Confirmation bias is very much the dark side of the Bayes Force. <a href="index.html#fnref:13" title="return to article">↩</a></p></li>
+<li class="footnote" id="fn:14"><p>I can't find an attribution for this quote, though its all over the internet. That use of 'he' sounds a lot like Fisher, though. Just sayin'. <a href="index.html#fnref:14" title="return to article">↩</a></p></li></ol></div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/dan/index.html" style="background-image: url(http://www.gravatar.com/avatar/acdde5b03dda3a7b05406a3b0fc8a02d?s=250&amp;d=mm&amp;r=x)"><span class="hidden">Dan MacLean's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/dan/index.html">Dan MacLean</a></h4>
+
+                    <p>"Over thirty... tall-ish, dark haired and never quite at ease with himself."
+
+http://hitchhikers.wikia.com/wiki/Arthur_Dent
+
+</p>
+                <div class="author-meta">
+                    
+                    <span class="author-link icon-link"><a href="http://danmaclean.info">http://danmaclean.info</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Lies%2C%20damn%20lies%20and%20statistics&amp;url=http://danmaclean.github.io/sadist-or-stasitician/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://danmaclean.github.io/sadist-or-stasitician/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://danmaclean.github.io/sadist-or-stasitician/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story prev no-cover" href="../organising-a-conference-will-take-your-sanity-to-a-dark-corner-and-whisper-into-its-ear-until-it-weeps-real-tears/index.html">
+        <section class="post">
+            <h2>Organising a conference will take your sanity to a dark corner and whisper into its ear until it weeps real tears.</h2>
+            <p>It's not that it's a lot of work  it's that the work goes round and round in ever decreasing…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../index.html">No Blog</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=8212bc766d"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=8212bc766d"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=8212bc766d"></script>
+
+</body>
